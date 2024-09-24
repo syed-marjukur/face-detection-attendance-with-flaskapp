@@ -13,7 +13,7 @@ from subprocess import call
 video_capture=cv2.VideoCapture(0)
 
 #path where the images of students are stored
-path = 'C:/Users/LENOVO/Desktop/Secound screen/Minor Project/images'
+path = '"LoCaTiOn"/images'
 images =[]
 myList = os.listdir(path)
 known_faces_encodings=[]
